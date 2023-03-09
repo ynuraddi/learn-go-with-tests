@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	a, b := map[int]int{}, make(map[int]int)
-
-	fmt.Println(a, b)
+	v := "привет"
+	fmt.Println(strings.ToUpper(v))
 }
